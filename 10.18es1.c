@@ -19,7 +19,7 @@ titoli di tutti i CD pubblicati da questo.
 Infine il programma
 visualizza l'autore che ha pubblicato più CD (se più di uno con lo
 stesso numero massimo di CD, si visualizzi il primo).*/
-
+ 
 #include<stdio.h>
 
 #define DIM 30
