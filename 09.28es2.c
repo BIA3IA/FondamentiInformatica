@@ -28,4 +28,4 @@ int main() {
 	printf("%d\n", primo);
 	
 	return 0;
-}	
+}
