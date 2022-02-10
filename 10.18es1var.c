@@ -79,7 +79,7 @@ int main() {
 		MINSEC+archivio.cd[i].durata.secondi;
 		if(d_cor[i]>d_max){
 			d_max=d_cor[i];
-		}
+		} 
 	}
 	for(i=0; i<archivio.n_cd; i++){
 		if(d_cor[i]==d_max){
