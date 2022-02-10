@@ -20,4 +20,4 @@ int main() {
 	printf("%d\n %f\n", intero, decimale);
 
 	return 0;
-}	
+}
