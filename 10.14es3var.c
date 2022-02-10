@@ -67,4 +67,4 @@ int main() {
 		
 	printf("%d giorno/i, %d ora/e, %d minuto/i, %d secondo/i\n", risultato.gio, risultato.ore, risultato.min, risultato.sec);	
 	return 0;
-}
+} 
