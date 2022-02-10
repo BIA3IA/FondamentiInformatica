@@ -21,4 +21,4 @@ int main() {
 	printf("Il massimo è: %d\n", max);
 
 	return 0;
-}	
+}
