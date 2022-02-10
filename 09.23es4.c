@@ -15,4 +15,4 @@ int main() {
 	printf("media: %f\n", media);
 
 	return 0;
-}	
+}
