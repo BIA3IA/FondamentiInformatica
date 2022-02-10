@@ -16,4 +16,4 @@ int main() {
 	printf("%f\n", temp_far);
 	
 	return 0;
-}	
+}
