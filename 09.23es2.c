@@ -18,4 +18,4 @@ int main() {
 	printf("Resto: %d banconete e %d monete\n", banconote, monete);
 	
 	return 0;
-}	
+}
