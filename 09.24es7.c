@@ -17,4 +17,4 @@ int main() {
 		printf("non terna\n");
 
 	return 0;
-}	
+}
