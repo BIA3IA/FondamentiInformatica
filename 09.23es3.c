@@ -14,4 +14,4 @@ int main() {
 	printf("peso: %d\n", totale);
 
 	return 0;
-}	
+}
