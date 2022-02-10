@@ -25,7 +25,7 @@ int main() {
 //		} a, b, somma;
 
 	frazione_t a, b, somma;
-	int meno, mcd;
+	int meno, mcd; 
 
 	do {
 		scanf("%d %d", &a.n, &a.d);
