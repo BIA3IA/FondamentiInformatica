@@ -1,0 +1,2 @@
+# infoC
+ESERCIZI in C
