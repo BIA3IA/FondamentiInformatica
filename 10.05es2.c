@@ -32,4 +32,4 @@ int main() {
 	printf("%d\n", perm);
 	
 	return 0;
-}
+} 
