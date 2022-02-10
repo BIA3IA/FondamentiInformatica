@@ -23,4 +23,4 @@ int main() {
 			printf("SCALENO\n");
 
 	return 0;
-}	
+}
