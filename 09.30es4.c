@@ -33,4 +33,4 @@ int main() {
 		printf ("Sequenza vuota\n");
 
 	return 0;
-}	
+}
