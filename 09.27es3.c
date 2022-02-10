@@ -31,4 +31,4 @@ int main() {
 		printf("operazione non valida\n");
 	
 	return 0;
-}	
+}
