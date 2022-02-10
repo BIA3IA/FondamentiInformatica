@@ -42,4 +42,4 @@ int main() {
 	printf("%f\n", tot);
 
 	return 0;
-}	
+}
