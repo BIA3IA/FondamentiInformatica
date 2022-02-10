@@ -16,4 +16,4 @@ int main() {
 	printf("Area: %f\n Perimetro: %f\n", a, p);
 	
 	return 0;
-}	
+}
