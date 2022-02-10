@@ -1,8 +1,7 @@
 /*Scrivere un programma in C che acquisisce una stringa di al massimo
 30 caratteri ed un numero n. Il programma estrae il suffisso della
 stringa di lunghezza n salvandolo in un nuovo array e visualizza il
-risultato. Se n è maggiore della lunghezza della stringa, il
-suffisso sarà rappresentato dalla stringa stessa*/
+risultato. */
 
 #include<stdio.h>
 #include<string.h>
