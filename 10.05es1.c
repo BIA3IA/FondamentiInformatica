@@ -23,4 +23,4 @@ int main() {
 	printf("%d\n", dup);
 	
 	return 0;
-}
+} 
