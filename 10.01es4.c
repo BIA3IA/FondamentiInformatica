@@ -19,4 +19,4 @@ int main() {
 	printf("%d\n", pal);
 	
 	return 0;
-}	
+}
