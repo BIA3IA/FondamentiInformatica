@@ -16,4 +16,4 @@ int main() {
 	printf("%c\n", succ);
 	
 	return 0;
-}	
+}
