@@ -14,4 +14,4 @@ int main() {
 	printf("%c\n", mai);	
 	
 	return 0;
-}	
+}
