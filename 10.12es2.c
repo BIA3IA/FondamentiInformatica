@@ -58,7 +58,7 @@ int main() {
 				for(k=0, prod.mat[i][j]=0; k<m1.colonne; k++)
 					prod.mat[i][j]+=m1.mat[i][j]*m2.mat[i][j];
 		}
-
+		
 		for(i=0; i<prod.righe; i++){
 			for(j=0; j<prod.colonne; j++)
 				printf("%f ", prod.mat[i][j]);
