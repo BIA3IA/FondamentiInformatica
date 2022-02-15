@@ -27,4 +27,4 @@ int input(){
 	} while(n<0);
 
 	return n;
-}
+} 
