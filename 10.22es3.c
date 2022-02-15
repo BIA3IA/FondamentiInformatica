@@ -33,7 +33,7 @@ int main() {
 		dx=0;
 		for(j=i+1, dx=0; j<DIM-1; j++){
 		dx+=v[j];
-		}
+		} 
 		if(dx==sx){
 			baricentro=i;
 		} 
