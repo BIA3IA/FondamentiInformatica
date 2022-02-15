@@ -33,4 +33,4 @@ int main(){
 	printf("%d %c\n", max, c_max);
 
 	return 0;
-}
+} 
