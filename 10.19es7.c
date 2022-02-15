@@ -98,4 +98,4 @@ int verificalettera(char in){
 		out=0;
 
 	return out;
-}
+} 
