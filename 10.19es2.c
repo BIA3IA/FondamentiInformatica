@@ -30,4 +30,4 @@ int maggiore(float n, float k){
 	}
 
 	return mag;
-}
+} 
