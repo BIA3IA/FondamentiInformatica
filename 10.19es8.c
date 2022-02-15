@@ -33,7 +33,7 @@ frazione_t moltiplicazione(frazione_t, frazione_t);
 void output(frazione_t);
 
 int main() {
-	frazione_t fraz1, fraz2;
+	frazione_t fraz1, fraz2; 
 
 	fraz1=input();
 	fraz2=input();
