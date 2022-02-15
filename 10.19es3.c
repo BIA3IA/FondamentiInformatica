@@ -28,4 +28,4 @@ float media(int n, int k){
 	m=(n+k)/2;
 
 	return m;
-}
+} 
