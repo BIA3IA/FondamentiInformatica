@@ -32,7 +32,7 @@ Risultato:
 14:30:00 -> 14:30:00*/
 
 #include<stdio.h>
-
+ 
 #define DIM 8
 #define MAX 100
 #define TEMP 22
