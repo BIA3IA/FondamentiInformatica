@@ -30,4 +30,4 @@ int main() {
 	printf("\n%d \n", k);
 
 	return 0;
-}
+} 
