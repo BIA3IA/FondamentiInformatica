@@ -29,7 +29,7 @@ int main() {
 		potx*=x;
 		}
 
-	printf("%d \n", sol);
+	printf("%d \n", sol); 
 	
 	return 0;
 }
