@@ -28,3 +28,33 @@ int main() {
 
 	return 0;
 } 
+
+// OPPURE
+
+#include<stdio.h>
+#define DIM 5
+
+int main() {
+	int a[DIM][DIM], i, j, b[DIM][DIM];
+
+	for(i=0; i<DIM; i++){
+		for(j=0; j<DIM; j++)
+			scanf("%d", &a[i][j]);
+	}
+
+	for(i=0; i<DIM; i++){
+		for(j=0; j<DIM; j++){
+			b[i][j]=a[j][DIM-1-i];
+		}
+	}
+	
+
+for(i=0; i<DIM; i++){
+		for(j=0; j<DIM; j++){
+			printf("%d ", b[i][j]);
+		}
+		printf("\n");
+	}
+	
+	return 0;
+}
