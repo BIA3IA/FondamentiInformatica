@@ -15,7 +15,7 @@ int main() {
 
 	for(i=0, ident=1; i<DIM && ident; i++){
 		for(j=0; j<DIM; j++){
-			if(i==j && array[i][j]!=1 || i!=j && array[i][j]==0)
+			if(i==j && array[i][j]!=1 || i!=j && array[i][j]!=0)
 				ident=0;
 		}
 	}
