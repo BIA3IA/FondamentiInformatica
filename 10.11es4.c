@@ -19,13 +19,13 @@ int main() {
 
 	lun=strlen(s1);
 
-	for(i=lun; s1[i]!='/'; i--){
-		s2[i]=s1[i];
+	for(i=lun, k=0; s1[i]!='/'; i--, k++){
+		s2[k]=s1[i];
 	}
 
-	s2[lun]='\0';
-	for(i=0; i<lun; i++)
-		printf("%c", s2[i]);
+	s2[k]='\0';
+	for(; k>=0; k++)
+		printf("%c", s2[k]);
 
 	printf("\n");
 	
