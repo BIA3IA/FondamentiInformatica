@@ -11,7 +11,7 @@ int main() {
 	int i, len;
 
 	scanf("%s", str1);
-	for(i=0; str1[len]!='\0'; len++);
+	for(len=0; str1[len]!='\0'; len++);
 
 	for(i=0; str1[i]!='\0'; i++)
 		str2[len-1-i]=str1[i];
