@@ -7,66 +7,56 @@ siano valide) e poi i valori. Il programma calcola, se possibile, il
 prodotto matriciale visualizzando il risultato; in alternativa
 visualizza un messaggio di errore.*/
 
-#include<stdio.h>
+#include <stdio.h>
 #define DIM 5
 
-typedef struct{
-	float mat[DIM][DIM];
+typedef struct {
 	int righe, colonne;
-} matrice;
+	float m[DIM][DIM];
+} matrice_t;
 
-int main() {
-	matrice m1, m2, prod;
+int main(){
+	matrice_t a, b, prod;
 	int i, j, k;
 
-	do{
-		scanf("%d", &m1.righe);
-	} while(m1.righe<=0 || m1.righe>DIM);
-	
-	do{
-		scanf("%d", &m1.colonne);
-	} while(m1.colonne<=0 || m1.colonne>DIM);
-	
-	do{
-		scanf("%d", &m2.righe);
-	} while(m2.righe<=0 || m2.righe>DIM);
-	
-	do{
-		scanf("%d", &m2.colonne);
-	} while(m2.colonne<=0 || m2.colonne>DIM);
+	do
+		scanf("%d %d", &a.righe, &a.colonne);
+	while (a.righe<=0 || a.colonne<=0 || a.righe>DIM || a.colonne>DIM);
 
-	for(i=0; i<m1.righe; i++){
-		for(j=0; j<m1.colonne; j++){
-			scanf("%f", &m1.mat[i][j]);
+	do
+		scanf("%d %d", &b.righe, &b.colonne);
+	while (b.righe<=0 || b.colonne<=0 || b.colonne>DIM || b.righe>DIM);
+
+	for (i=0; i<a.righe; i++)
+		for(j=0; j<a.colonne; j++)
+			scanf("%f", &a.m[i][j]);
+
+	for (i=0; i<b.righe; i++)
+		for(j=0; j<b.colonne; j++)
+			scanf("%f", &b.m[i][j]);
+	
+	if(a.colonne!=b.righe){
+		printf("Non è possibile calcolare il prodotto matriciale.");
+	} else {
+		prod.righe=a.righe;
+		prod.colonne=b.colonne;
+
+		for(i=0; i<prod.righe; i++){
+			for(j=0; j<prod.colonne; j++){
+				for(k=0, prod.m[i][j]=0; k<a.colonne; k++){
+					prod.m[i][j]+=a.m[i][k]*b.m[k][j];
+
+				}
+			}
 		}
 	}
 
-	for(i=0; i<m2.righe; i++){
-		for(j=0; j<m2.colonne; j++){
-			scanf("%f", &m2.mat[i][j]);
+	for(i=0; i<prod.righe; i++){
+		for(j=0; j<prod.colonne; j++){
+			printf("%f  ", prod.m[i][j]);
 		}
+		printf("\n");
 	}
-
-	// attenzione: con m1==m2 e matrici sottodimensionate, confronterei dati non validi
-
-	if(m1.colonne==m2.righe){
-		prod.righe=m1.righe;
-		prof.colonne=m2.colonne;
-
-		for(i=0; i<prod.righe; i++){
-			for(j=0; j<prod.colonne; j++)
-				for(k=0, prod.mat[i][j]=0; k<m1.colonne; k++)
-					prod.mat[i][j]+=m1.mat[i][j]*m2.mat[i][j];
-		}
-		
-		for(i=0; i<prod.righe; i++){
-			for(j=0; j<prod.colonne; j++)
-				printf("%f ", prod.mat[i][j]);
-			printf("\n");
-		}
-
-	} else 
-	printf("ERRORE\n");
 
 	return 0;
-} 
+}
