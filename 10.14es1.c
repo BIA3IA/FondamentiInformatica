@@ -22,16 +22,13 @@ int main() {
 		for(i=0; i<len; i++)
 			str2[i]=str1[i];
 	} else {
-		for(i=len-n; i<len; i++)
-			str2[i]=str1[i];
+		for(i=len-n, k=0; i<len; i++, k++)
+			str2[k]=str1[i];
 	}
 	
 	str2[i]='\0';
-
-	for(i=0; i<len; i++)
-		printf("%c", str2[i]);
-
-	printf("\n");
+	
+	printf("%s\n", str2);
  
 	return 0;
 }
