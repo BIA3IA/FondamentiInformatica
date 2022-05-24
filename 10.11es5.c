@@ -9,7 +9,7 @@ suffisso sarà rappresentato dalla stringa stessa. */
 #define MAX 30
 
 int main(){
-	char s[MAX], s2[MAX];
+	char s[MAX+1], s2[MAX+1];
 	int i, n, k, lun;
 
 	scanf("%s %d", s, &n);
