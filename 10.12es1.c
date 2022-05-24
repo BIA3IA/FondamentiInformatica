@@ -5,6 +5,59 @@ somma. Il programma deve in seguito semplificare il risultato
 dell'operazione rappresentando l'eventuale segno meno nel
 numeratore.*/
 
+
+#include <stdio.h>
+
+typedef struct {
+	int n, d;
+} frazione_t;
+
+int main(){
+	frazione_t a, b, somma;
+	int mcd;
+
+	do
+		scanf("%d %d", &a.n, &a.d);
+	while (a.d==0);
+
+	do 
+		scanf("%d %d", &b.n, &b.d);
+	while (b.d==0);
+
+	somma.d=a.d*b.d;
+	somma.n=a.n*b.d+b.n*a.d;
+
+	if(somma.n==0){
+		printf("0 \n");
+	} else {
+		if(somma.n<=0 && somma.n<0){
+			somma.n*=-1;
+			somma.d*=-1;
+		} else if(somma.n>0 && somma.d<0){
+			somma.n*=-1;
+			somma.d*=-1;
+		}
+
+		if(somma.n>somma.d)
+			mcd=somma.d;
+		else
+			mcd=somma.n;
+
+		while(somma.n%mcd || somma.d%mcd)
+			mcd--;
+
+		somma.n/=mcd;
+		somma.d/=mcd;
+
+		printf("%d / %d \n", somma.n, somma.d);
+	}
+
+	return 0;
+}
+
+
+/* OPPURE VERSIONE 2
+
 #include<stdio.h>
 
 typedef struct{
@@ -33,7 +86,7 @@ int main() {
 
 	do {
 		scanf("%d %d", &b.n, &b.d);
-	}	while(b.n==0);
+	}	while(b.d==0);
 
 	somma.n=a.n*b.d+b.n*a.d;
 	somma.d=a.d*b.d;
@@ -67,4 +120,4 @@ int main() {
 	printf("%d %d\n", somma.n, somma.d);
 
 	return 0;
-}
+}		*/
