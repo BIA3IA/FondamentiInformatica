@@ -28,7 +28,7 @@ int main() {
 	count=0;
 	len=strlen(str);
 
-	for(i=0; i<=len; i++){
+	for(i=0; i<len; i++){
 		if(str[i]>='0' && str[i]<='9'){
 			count++;
 			if(count>max){
