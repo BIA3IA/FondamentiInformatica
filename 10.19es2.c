@@ -20,7 +20,7 @@ int main() {
 	return 0;
 }
 
-int maggiore(float n, float k){
+float maggiore(float n, float k){
 	float mag;
 
 	if(n>k){
