@@ -13,18 +13,24 @@ int input();
 int main() {
 	int a, b;
 
+	// printf("%d %d\n", input(a), input(b)); Cosi mi printa 
+	// prima il secondo numero che inserisco, perche LI-FO
+	
 	printf("%d ", input(a));
 	printf("%d\n", input(b));
+	
 	
 	return 0;
 }
 
 int input(){
 	int n;
-
-	do{
+	
+	scanf("%d", &n);
+	while(n<0){
+		printf("Errore. Inserire nuovo numero:	");
 		scanf("%d", &n);
-	} while(n<0);
+	}
 
 	return n;
 } 
