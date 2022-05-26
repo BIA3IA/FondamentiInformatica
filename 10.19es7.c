@@ -29,73 +29,77 @@ immutati.*/
 
 #include<stdio.h>
 
+#define LUNS 20
 #define PASSO 3
-#define DIM 20
 
 char cifra(char);
 char decifra(char);
 int verificalettera(char);
 
-
 int main() {
-	char input[DIM+1], cifrato[DIM+1], decifrato[DIM+1];
-	int lettera, i, uguali;
+	char str[LUNS+1], cifrato[LUNS+1], decifrato[LUNS+1];
+	int i, lettera, uguali;
 
-	scanf("%s", input);
-	for(i=0; input[i]!='\0'; i++){
-		lettera=verificalettera(input[i]);
-		if(lettera){
-			cifrato[i]=cifra(input[i]);
-		} else{
-			cifrato[i]=input[i];
-		}
-		lettera=1;
+	scanf("%s", str);
+
+
+	for(i=0; str[i]!='\0'; i++){
+		lettera=verificalettera(str[i]);
+		if(lettera)
+			cifrato[i]=cifra(str[i]);
+		else
+			cifrato[i]=str[i];
 	}
+
 	cifrato[i]='\0';
-	printf("%s\n", cifrato);
 
-	for(i=0; cifrato[i]!='\0'; i++){
-		lettera=verificalettera(cifrato[i]);
-		if(lettera){
+	printf("Messaggio cifrato: %s\n", cifrato);
+
+	for(i=0; str[i]!='\0'; i++){
+		lettera=verificalettera(str[i]);
+		if(lettera)
 			decifrato[i]=decifra(cifrato[i]);
-		} else{
+		else
 			decifrato[i]=cifrato[i];
-		}
-		lettera=1;
 	}
+
 	decifrato[i]='\0';
-	printf("%s\n", decifrato);
 
-	for(i=0, uguali=1; input[i]!='\0' && decifrato[i]!='\0' && uguali; i++){
-		if(input[i]!=decifrato[i]){
+	printf("Messaggio decifrato: %s\n", decifrato);
+
+	for(i=0, uguali=1; str[i]!='\0' && uguali; i++){
+		if(str[i]!=decifrato[i])
 			uguali=0;
-		}
 	}
 
-	if(uguali)
-		printf("corrispondono\n");
-
+	printf("Esito Test: %d\n", uguali);
+	
 	return 0;
 }
 
-char cifra(char in){
-	char out;
-	out=(in-'a'+PASSO)%('z'-'a'+PASSO)+'a';
-	return out;
+char cifra(char decifr){
+	char cifr;
+
+	cifr=(decifr-'a'+PASSO)%('z'-'a'+PASSO)+'a';
+
+	return cifr;
 }
 
-char decifra(char in){
-	char out;
-	out=(in-'a'-PASSO)%('z'-'a'-PASSO)+'a';
-	return out;
+char decifra(char cifr){
+	char decifr;
+
+	decifr=(cifr-'a'-PASSO)%('z'-'a'-PASSO)+'a';
+
+	return decifr;
 }
 
-int verificalettera(char in){
-	int out;
-	if(in>='a' && in<='z')
-		out=1;
+int verificalettera(char car){
+	int lettera;
+
+	if(car>='a' && car<='z')
+		lettera=1;
 	else
-		out=0;
+		lettera=0;
 
-	return out;
-} 
+	return lettera;
+}
