@@ -25,7 +25,7 @@ messaggio cifrato, lo stampa a video e verifica che effettivamente è
 uguale al messaggio originale, visualizzando l'esito del confronto.
 NOTA: nella cifratura/decifratura vanno cifrate/decifrate soltanto
 le lettere dell'alfabeto mentre il resto dei caratteri rimangono
-immutati.*/
+immutati. */
 
 #include<stdio.h>
 
@@ -100,6 +100,6 @@ int verificalettera(char car){
 		lettera=1;
 	else
 		lettera=0;
-
+	
 	return lettera;
 }
