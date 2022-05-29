@@ -4,7 +4,7 @@ maggiore di zero e minore della lunghezza della stringa. Se le
 condizioni non sono verificate, continua a richiedere il valore. In
 seguito il programma crea una nuova stringa s2 che contiene la
 rotazione verso destra di s1 di n posizioni e la visualizza.
-Esempio: s1="alfabeto" e n=2 -> s2="toalfabe".*/
+Esempio: s1="alfabeto" e n=2 -> s2="toalfabe".		*/
 
 #include <stdio.h>
 #include <string.h>
