@@ -4,6 +4,7 @@ condizione non sarà soddisfatta. In seguito, il programma disegna a
 video un triangolo con base n utilizzando il carattere * come
 mostrato nel seguente esempio.
 Esempio: Sia n=10, il disegno da mostrare è
+*
 **
 ****
 ******
@@ -13,5 +14,20 @@ Esempio: Sia n=10, il disegno da mostrare è
 #include <stdio.h>
 
 int main(){
+	int n, i, j;
+		
+	do 
+		scanf("%d", &n);
+	while(n<0 || n%2);
+	
+	j=1;
+	while(j<=n){
+		for(i=0; i<j; i++){
+			printf("* ");
+		}
+		printf("\n");
+		j++;
+	}
 
-	return 0;
+	return 0;			       
+}
