@@ -6,7 +6,7 @@ inserito il numero 2134, il programma stamperà a video:
 |****
 |***
 |*
-|**   */
+|**			   */
 
 #include <stdio.h>
 
