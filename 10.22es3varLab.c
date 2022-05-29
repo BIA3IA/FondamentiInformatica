@@ -16,7 +16,23 @@ numero 2134 il programma visualizza:
 |**** */
 
 #include <stdio.h>
+#define BASE 10
 
 int main(){
+	int n, i, tmp, cif
+		
+	do 
+		scanf("%d", &n);
+	while(n<=0);
+	
+	tmp=n;
+	
+	whille(n>0){
+		n/=BASE;
+	}
+	
+	???????????
+		
 
 	return 0;
+}
