@@ -4,30 +4,32 @@ condizione non sarà soddisfatta. In seguito, il programma disegna a
 video un triangolo con base n utilizzando il carattere * come
 mostrato nel seguente esempio.
 Esempio: Sia n=10, il disegno da mostrare è
-*
-**
-****
-******
-********
-***********/
+    **
+   ****
+  ******
+ ********
+**********     */
 
-#include <stdio.h>
+#include<stdio.h>
+#define BASE 2
 
-int main(){
+int main() {
 	int n, i, j;
-		
-	do 
+
+	do
 		scanf("%d", &n);
-	while(n<0 || n%2);
+	while(n<=0 || n%BASE);
+
 	
-	j=1;
-	while(j<=n){
-		for(i=0; i<j; i++){
-			printf("* ");
+	for(j=1; j<=n/BASE; j++){
+		for(i=1; i<=n; i++){
+			if(i<=(n/BASE-j) || i>(n/BASE-j)+j*2){
+				printf(" ");
+			} else
+				printf("*");
 		}
 		printf("\n");
-		j++;
 	}
 
-	return 0;			       
+	return 0;
 }
