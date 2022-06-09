@@ -12,7 +12,7 @@ valida, mentre "domani:898" e "do.898" non lo sono.
 Scrivere un programma che chiede all'utente una stringa di al
 massimo 20 caratteri ed invoca il sottoprogramma sopra definito
 specificando i seguenti valori per i parametri: N=8, NL=5 e
-SYMB="%:;-+". Il sottoprogramma visualizza il risultato restituito
+SYMB="%:;-+". Il sottoprogramma visualizza il risultato restituito   
 dal sottoprogramma. */
 
 #include<stdio.h>
