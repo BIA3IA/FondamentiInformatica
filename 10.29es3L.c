@@ -10,7 +10,7 @@ significato).
 hanno più traduzioni in inglese.
 Come esempio si consideri la seguente lista di parole:
 scope brooms
-scopo scope
+scopo scope  
 case houses
 scatola case
 goal goal
