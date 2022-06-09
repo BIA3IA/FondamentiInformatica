@@ -43,6 +43,7 @@ int somma(int *a, int dim){
 	return ris;
 }
 
+
 int magg(int a, int b){
 	int mag;
 
