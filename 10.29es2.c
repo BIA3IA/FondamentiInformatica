@@ -11,7 +11,7 @@ Scrivere un sottoprogramma che riceve come parametro passato per
 indirizzo una frazione e la semplifica.
 Scrivere un programma che, mediante i sottoprogrammi sopra definiti,
 chiede all'utente una frazione, la semplifica e mostra il risultato
-a video.*/
+a video. */
 
 #include<stdio.h>
 
