@@ -51,5 +51,6 @@ int logaritmo(int n, int base, int *ris){
 		}
 	}
 
+	
 	return prec;
 }
