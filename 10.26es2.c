@@ -34,6 +34,7 @@ int main() {
 	return 0;
 }
 
+
 int potenza (int n, int a){
 	int i, ris;
 
