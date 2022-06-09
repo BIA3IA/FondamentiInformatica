@@ -2,7 +2,7 @@
 e restituisce quante vocali contiene. Scrivere un programma che
 chiede all'utente una stringa di al massimo 30 caratteri che può
 contenere anche degli spazi, invoca su di essa il sottoprogramma
-sopra definito e visualizza il risultat0. */
+sopra definito e visualizza il risultato. */
 
 #include<stdio.h>
 
