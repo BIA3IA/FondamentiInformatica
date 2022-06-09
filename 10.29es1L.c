@@ -41,6 +41,6 @@ int fattoriale(int a){
 
 	for(i=1, ris=1; i<=a; i++)
 		ris*=i;
-
+	
 	return ris;
 }
