@@ -11,7 +11,7 @@ programma utilizza i due sottoprogrammi sopra definiti per acquisire
 i dati dell'intera matrice e la visualizza. In seguito il programma
 chiede all'utente le dimensioni di una sottomatrice della matrice
 sopra dichiarata (si assuma che l'utente inserisca i due valori
-correttamente). Il programma popola e visualizza la sottomatrice
+correttamente). Il programma popola e visualizza la sottomatrice 
 mediante i due sottoprogrammi sopra definiti.*/
 
 #include<stdio.h>
