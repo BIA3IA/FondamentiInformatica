@@ -3,7 +3,7 @@ bidimensionale di interi (dichiarato con NC=5 colonne) e le
 dimensioni effettive della parte della matrice utilizzata. Il
 sottoprogramma calcola la media dei valori contenuti nella matrice e
 trasmette al chiamante le coordinate del valore più vicino alla
-media. Se più valori hanno stessa distanza minima selezionare
+media. Se più valori hanno stessa distanza minima selezionare   
 l'ultimo.
 Scrivere un programma che chiede all'utente i dati di una matrice
 5x5 di interi, invoca il sottoprogramma sopra definito e visualizza
