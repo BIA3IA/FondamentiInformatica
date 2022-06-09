@@ -30,7 +30,6 @@ int main() {
 		scanf("%d", &cont);
 
 	}
-
 	return 0;
 }
 
