@@ -39,6 +39,7 @@ int potenza(int n, int a){
 	return ris;
 }
 
+
 int radice(int num, int grado, int *ris){
 	int prec;
 
