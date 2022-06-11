@@ -81,7 +81,7 @@ int area(rettangolo_t ret){
 
 	return a;
 }
-
+ 
 int intersecati(rettangolo_t rett1, rettangolo_t rett2){
 	int inters;
 
