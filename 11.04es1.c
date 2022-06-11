@@ -60,6 +60,6 @@ int compare(int a[], int b[], int dim){
 		if(uguali)
 			ok=dim-j;
 	}
-
+ 
 	return ok;
 }
