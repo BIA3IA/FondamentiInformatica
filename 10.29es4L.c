@@ -11,12 +11,12 @@ entrambe le seguenti condizioni:
 uguali (contengono gli stessi elementi, posizione per posizione)
 Esempio:
 Date le matrici
-A: B:
-5 3 7 1 8 0 3 7 0 1
-3 9 2 7 1 0 9 2 7 0
-3 9 7 5 6 3 9 7 5 1
-4 5 7 1 3 4 5 7 1 0
-8 6 2 9 9 1 0 0 9 1
+A:           B:
+5 3 7 1 8    0 3 7 0 1
+3 9 2 7 1    0 9 2 7 0
+3 9 7 5 6    3 9 7 5 1
+4 5 7 1 3    4 5 7 1 0
+8 6 2 9 9    1 0 0 9 1
 L'output del programma sarà
 N=2
 (0, 1) (1, 1) (1, 2) (2, 0) (2, 1) (2, 2)
