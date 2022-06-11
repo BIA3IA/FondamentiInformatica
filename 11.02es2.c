@@ -60,6 +60,6 @@ void separa(char line[], char tokens[][NC+1], int wMax, int *wNum){
 
 	if(*wNum<wMax){
 		tokens[*wNum][j]='\0';
-		(*wNum)++;
+		(*wNum)++; 
 	}
 }
