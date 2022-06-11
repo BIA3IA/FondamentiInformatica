@@ -69,4 +69,4 @@ void output(concessionario_t con[], int dim, int aa){
 			printf("Nessuna.\n");
 	}
 
-}
+}  
