@@ -28,7 +28,7 @@ peso ricevuto come ultimo parametro.*/
 #include<stdio.h>
 
 #define DIM 10
-#define N_OGGETTI 100
+#define N_OGGETTI 100  
 #define MAX_STR 100
 #define PESO_CONTAINER 100
 
