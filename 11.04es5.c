@@ -52,5 +52,5 @@ void numpag(biblioteca_t bib[], int dim, int ris[]){
 			ris[i]+=bib[i].libri[j].pagine;
 		}
 	}
-
+ 
 }
