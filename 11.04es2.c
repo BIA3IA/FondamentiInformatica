@@ -32,6 +32,6 @@ void magg(int mat[][NCOL], int nrig, int ncol, int val, int *i, int *j){
 
 	if(!trovato){
 		*i=-1;
-		*j=-1;
+		*j=-1; 
 	}
 }
