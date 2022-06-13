@@ -28,4 +28,4 @@ int main() {
 		printf("Non aperto corretamente\n");
 	
 	return 0;
-}
+}  
