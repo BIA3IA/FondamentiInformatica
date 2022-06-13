@@ -29,7 +29,7 @@ int main() {
 		} 
 		printf("MAX: %d VOLTE: %d\n", max, volte);	
 		fclose(fp);
-	} else
+	} else 
 		printf("Errore apertura.\n");
 	
 	return 0;
