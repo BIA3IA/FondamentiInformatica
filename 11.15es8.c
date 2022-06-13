@@ -20,6 +20,6 @@ int main() {
 		fclose(fp);
 	} else
 		printf("Errore aperura.\n");
-	
-	return 0;
+	 
+	return 0;  
 }
