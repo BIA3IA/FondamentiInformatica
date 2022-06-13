@@ -9,6 +9,6 @@ int main() {
 
 	fscanf(stdin, "%d", &n);
 	fprintf(stdout, "%d\n", n);
-	
+	 
 	return 0;
-}
+} 
