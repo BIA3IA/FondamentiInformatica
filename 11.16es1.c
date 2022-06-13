@@ -28,7 +28,7 @@ int main() {
 			fscanf(fp, "%d", &curr);
 			if(n*2==curr){
 				printf("%d %d\n", &n, &curr);
-			}
+			} 
 			curr=n;
 		}
 		fclose(fp);
