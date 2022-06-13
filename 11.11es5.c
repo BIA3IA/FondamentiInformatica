@@ -24,4 +24,4 @@ int fibonacci(int i){
 	if(i==1)
 		return 1;
 	return fibonacci(i-2)+fibonacci(i-1);
-	}
+	} 
