@@ -42,7 +42,7 @@ int main() {
 		}
 		printf("%d\n", conto);
 		fclose(fp);
-	} else
+	} else  
 		printf("Errore apertura.\n");
 	
 	return 0;
