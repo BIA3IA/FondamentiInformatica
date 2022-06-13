@@ -28,7 +28,7 @@ bimbumbam345*/
 int analizzastringa(char[]);
 
 int main() {
-	FILE *fp, *fp2;
+	FILE *fp, *fp2;  
 	char s[LUNS+1]
 
 	fp=fopen(FN, "r");
