@@ -26,5 +26,5 @@ int main() {
 	} else
 		printf("Errore apertura\n");00
 	
-	return 0;
+	return 0;  
 }
