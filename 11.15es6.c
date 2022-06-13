@@ -8,7 +8,7 @@ della serie di numeri ed il loro salvataggio nel file.*/
 int main() {
 	FILE *fp;
 	int n, curr;
-
+ 
 	fp=fopen("ciao.bin", "wb");
 	
 	if(fp){
