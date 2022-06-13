@@ -4,7 +4,7 @@ parametro.
 Scrivere un programma che chiede all'utente un valore intero
 positivo o nullo (e nel caso non sia un valore valido lo richiede),
 invoca il sottoprogramma definito e visualizza il risultato.*/
-
+  
 #include<stdio.h>
 
 int fattoriale(int);
