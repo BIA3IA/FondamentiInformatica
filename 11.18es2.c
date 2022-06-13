@@ -4,7 +4,7 @@ dinamicamente un array della stessa dimensione dim, vi copia il
 contenuto di a1 e lo restituisce al chiamante. Gestire
 opportunamente gli eventuali errori di allocazione della memoria.
 Scrivere un programma che dichiara un array da 10 elementi interi e
-lo popola con i valori letti da tastiera. Il programma invoca il
+lo popola con i valori letti da tastiera. Il programma invoca il   
 sottoprogramma sopra definito e visualizza il suo risultato. Infine
 il programma rilascia la memoria allocata dinamicamente. Gestire
 opportunamente gli eventuali errori di allocazione della memoria.*/
