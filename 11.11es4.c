@@ -29,5 +29,5 @@ int MCD(int m, int n){
 		return m;
 	else if(m>n)
 		return MCD(m-n,n);
-	return MCD(m,n-m);
+	return MCD(m,n-m);  
 }
