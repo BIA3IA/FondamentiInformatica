@@ -39,5 +39,5 @@ void output(int mat[][NC], int nr, int nc){
 		}
 		printf("\n");
 	}
-
+ 
 }
