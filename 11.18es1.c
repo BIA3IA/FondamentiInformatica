@@ -5,7 +5,7 @@ dimensione specificata e lo popola con i valori acquisiti da
 tastiera. In seguito il programma visualizza la sequenza di valori
 acquisiti al rovescio e libera la memoria allocata dinamicamente.
 Visualizzare un errore nel caso si verifichi un errore di
-allocazione della memoria.*/
+allocazione della memoria.*/  
 
 #include<stdio.h>
 #include<stdlib.h>
