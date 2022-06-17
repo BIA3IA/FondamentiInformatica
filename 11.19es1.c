@@ -28,7 +28,7 @@ int main() {
 				if(cont1==cont2){
 					uguali=1;
 					fscanf(fp1, "%c", &cont1);
-					fscanf(fp2, "%c", &cont2);
+					fscanf(fp2, "%c", &cont2); 
 				} else 
 					uguali=0;
 			}
