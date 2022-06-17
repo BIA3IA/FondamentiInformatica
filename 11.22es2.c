@@ -58,7 +58,7 @@ nodo_t* eliminaTutti(nodo_t*, int);
 nodo_t* cancellaTesta(nodo_t*);
 
 nodo_t* distruggi(nodo_t*);
-
+ 
 
 int main() {
 	nodo_t *lista1, *lista2, *lista3, *curr;
