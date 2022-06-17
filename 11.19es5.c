@@ -31,7 +31,7 @@ int main() {
 	printf("%s\n%s\n", str1, str2);
 
 	free(str1);
-	free(str2);
+	free(str2);  
 
 	return 0;
 }
