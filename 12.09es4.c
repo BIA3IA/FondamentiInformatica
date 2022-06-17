@@ -56,4 +56,4 @@ int potenza(int n, int e){
 		n*=n;
 
 	return n;
-}
+} 
