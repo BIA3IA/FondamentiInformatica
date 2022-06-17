@@ -27,7 +27,7 @@ int main() {
 	while(n>0){
 		tmp=malloc(sizeof(nodo_t));
 		if(tmp){
-			(*tmp).n=n;
+			(*tmp).n=n; 
 			(*tmp).next=h;
 			h=tmp;
 		} else
