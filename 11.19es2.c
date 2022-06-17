@@ -26,7 +26,7 @@ presenza spazi ripetuti.*/
 #include<stdio.h>
 
 #define LUNS 30
-
+  
 int main() {
 	char name[LUNS+1], c;
 	FILE *fp;
