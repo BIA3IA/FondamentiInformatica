@@ -3,7 +3,7 @@ due numeri interi. Il programma visualizza la somma dei due valori.
 Nel caso l'utente abbia specificato in modo errato il numero di
 argomenti richiesto il programma visualizza un messaggio di errore.*/
 
-#include<stdio.h>
+#include<stdio.h>  
 
 int main(int argc, char *argv[]) {
 	int n1, n2; 
