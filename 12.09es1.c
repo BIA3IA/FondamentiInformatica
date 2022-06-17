@@ -32,6 +32,6 @@ int contenuto(int a[], int dim, int n){
 	for(i=0, cont=0; i<dim && !cont; i++)
 		if(n==a[i])
 			cont=1;
-
+ 
 	return cont;
 }
