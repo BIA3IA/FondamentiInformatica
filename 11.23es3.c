@@ -44,7 +44,7 @@ int main(int argc, char *argv[]) {
 	} else
 		printf("Argomenti errati\n");
 	
-	return 0;
+	return 0;  
 }
 
 nodo_t* aggiungiTesta(nodo_t *list, int n){
