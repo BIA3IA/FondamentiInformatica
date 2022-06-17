@@ -31,7 +31,7 @@ int main() {
 	while(n!=0){
 		lista=aggiungicoda(lista, n);
 		scanf("%d", &n);
-	}
+	}  
 
 	
 	sum=somma(lista);
