@@ -22,7 +22,7 @@ int main() {
 
 nodo_t* scrivisulista(char name[]){
 	FILE *fp;
-	nodo_t *list;
+	nodo_t *list; 
 	int n;
 
 	list=NULL;
@@ -34,7 +34,7 @@ nodo_t* scrivisulista(char name[]){
 			list=inseriscicoda(list, n);
 			fread(&n, sizeof(int), 1, fp);
 		}
-		fclose(fp);
+		fclose(fp);  
 	} else
 		printf("Errore\n");
 

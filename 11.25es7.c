@@ -11,7 +11,7 @@ la lista creata sarà fatta come segue
 #include<stdio.h>
 #include<stdlib.h>
 
-typedef struct nodo_{
+typedef struct nodo_{    
 	int num;
 	struct nodo_ *next;
 }nodo_t;

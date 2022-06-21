@@ -10,7 +10,7 @@ funzione restituisce entrambe le liste al chiamante.*/
 void positivinegativi(nodo_t *l1, nodo_t **lp, nodo_t **ln){
 
 	*lp=NULL;
-	*ln=NULL;
+	*ln=NULL; 
 	while(l1){
 		if((*l1).num>0)
 			*lp=aggiungicoda(&lp, (*l1).num);
@@ -19,4 +19,4 @@ void positivinegativi(nodo_t *l1, nodo_t **lp, nodo_t **ln){
 		l1=(*l1).next;
 	}
 
-}
+}   

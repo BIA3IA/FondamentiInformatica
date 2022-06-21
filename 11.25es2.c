@@ -24,7 +24,7 @@ void scrittura(nodo_t *list, char name[]){
 	if(fp){
 		while(list){
 			fwrite(&(*list).num, sizeof(int), 1, fp);
-			list=(*list).next;
+			list=(*list).next;  
 		} 
 		fclose(fp);
 	} else
