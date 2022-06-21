@@ -35,12 +35,12 @@ nodo_t* aggiungiinordine(nodo_t *list, int n){
 					(*prec).next=tmp;
 				}
 			}
-		} else {
+		} else { 
 			(*tmp).next=list;
 			list=tmp;
-		}
+		}    
 	} else
 		printf("Errore\n");
 
 	return list;
-}
+} 
