@@ -27,7 +27,7 @@ nodo_t* listaMedie(nodo_t *l1){
 	nodo_t *l2 , *curr, *prec;
 
 	l2=NULL;
-
+   
 	if(l1){
 		for(curr=(*l1).next, prec=l1; (*prec).next; prec=(*prec).next, curr=(*curr).next){
 			(*prec).num=((*curr).num+(*prec).num)/2;
