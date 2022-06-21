@@ -38,7 +38,7 @@ nodo_t* scambiacoppie(nodo_t *list){
 			if(prec)
 				curr=(*prec).next;
 			else
-				curr=NULL;	
+				curr=NULL;	   
 		}
 		if(!curr && prec)
 			list2=inseriscicoda(list2, (*prec).num);
